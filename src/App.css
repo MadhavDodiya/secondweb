@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* background image */
+.bgimg1{
+  background-image: url('../public/img/Banner.jpg');
+  background-position: center;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bgimg2{
+  background-image: url('../public/img/Call-to-action.jpg');
+  background-position: center;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bgimg3{
+  background-image: url('../public/img/About-banner.jpg');
+  background-position: center;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.bgimg4{
+  background-image: url('../public/img/Talk-to-us.jpg');
+  background-position: center;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bgimg5{
+  background-image: url('../public/img/Call-to-action.jpg');
+  background-position: center;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.bgimg6{
+  background-image: url('../public/img/Contact-Banner.jpg');
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* button */
+.btn1{padding: 10px 50px;border: none;background: #74a84a;color: white;}
+.btn1:hover{padding: 10px 50px;border: none;background: #2c541d;color: white;transition: 0.5s;}
+
+.btn2{padding: 10px 50px;border: none;background: #74a84a;color: white;}
+.btn2:hover{padding: 10px 50px;border: none;background: #2c541d;color: white;transition: 0.5s;}
+
+.btn3{padding: 10px 50px;border: none;background: #74a84a;color: white;}
+.btn3:hover{padding: 10px 50px;border: none;background: #2c541d;color: white;transition: 0.5s;}
+
+/* color */
+.clr1{color: green;}
+.clr1:hover{color: green;}
