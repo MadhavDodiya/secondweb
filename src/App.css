@@ -62,6 +62,14 @@
 .btn3{padding: 10px 50px;border: none;background: #74a84a;color: white;}
 .btn3:hover{padding: 10px 50px;border: none;background: #2c541d;color: white;transition: 0.5s;}
 
+.btn4{padding: 10px 30px;border: none;background: #74a84a;color: white;}
+.btn4:hover{padding: 10px 30px;border: none;background: #2c541d;color: white;transition: 0.5s;}
+
+.btn5{padding: 10px 15px;border:1px solid #2c541d;border-radius: 100%;}
+
+.btn6{padding: 10px 15px;border: none;border-radius: 100%;color: white;background: #74a84a;}
+.btn6:hover{padding: 10px 15px;border: none;border-radius: 100%;color: white;background: #2c541d;transition: 0.5s;}
+
 /* color */
 .clr1{color: green;}
 .clr1:hover{color: green;}

@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from './Footer';
+
 
 export default function Home(props) {
   return (
@@ -6,30 +8,7 @@ export default function Home(props) {
       {/* Home page start */}
 
     <div className='bgimg1'>
-    <nav className="navbar navbar-expand-sm">
-  <div className="container">
-    <a className="navbar-brand p-2" href="#"><img src='img/Logo-96x19.png'/></a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul className="navbar-nav ms-auto">
-        <li className="nav-item p-2 fs-5">
-          <a className="nav-link clr1" href="#">HOME</a>
-        </li>
-        <li className="nav-item p-2 fs-5">
-          <a className="nav-link" href="#">ABOUT</a>
-        </li>
-        <li className="nav-item p-2 fs-5">
-          <a className="nav-link" href="#">SERVICE</a>
-        </li>
-        <li className="nav-item p-2 fs-5">
-          <a className="nav-link" href="#">CONTACT</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  
 
 <div className='container pt-5'>
     <h1 className='text-center text-success pt-5' style={{fontSize:"90px"}}>
@@ -103,32 +82,7 @@ export default function Home(props) {
     </div>
 </div>
 
-<div className='container-fluid'>
-    <div className='row'>
-        <div className='col-md-4'>
-            <div className='container-fluid p-5'>
-            <a className="nav-link d-inline p-2" href="#">HOME</a>           
-            <a className="nav-link d-inline p-2" href="#">ABOUT</a>        
-            <a className="nav-link d-inline p-2" href="#">SERVICE</a>       
-            <a className="nav-link d-inline p-2" href="#">CONTACT</a>            
-        </div>
-        </div>
-
-        <div className='col-md-4'>
-            <div className='container-fluid p-5'>
-            <center>
-                <img src='img/Logo-96x19.png'/>
-            </center>
-            </div>
-        </div>
-
-        <div className='col-md-4'>
-            <div className='container-fluid p-5'>
-                <p>©2022 Earth. All right reserved.</p>
-            </div>
-        </div>
-    </div>
-</div>
+<Footer />
 
     </div>
   )
